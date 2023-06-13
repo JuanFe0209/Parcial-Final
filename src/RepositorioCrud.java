@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RepositorioCrud  implements OperacionCrud{
+abstract class RepositorioCrud  implements OperacionCrud{
 private List<Producto> productos;
 
 public RepositorioCrud() throws IOException, ClassNotFoundException {

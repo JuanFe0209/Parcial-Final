@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         String opc = "1";
-        RepositorioCrud repo = new RepositorioCrud();
+        RepositorioCrud repo = new ImpAbstract();
         do {
             Scanner s = new Scanner(System.in);
             System.out.print("Menu \n 1. Agregar Producto  \n 2. Listar \n 3. Editar Producto " +
